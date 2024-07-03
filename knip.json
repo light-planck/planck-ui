@@ -1,0 +1,4 @@
+{
+	"ignoreBinaries": ["storybook"],
+	"ignoreDependencies": ["@biomejs/biome"]
+}
