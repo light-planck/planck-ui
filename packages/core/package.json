@@ -11,10 +11,6 @@
 		"storybook": "storybook dev -p 6006",
 		"build-storybook": "storybook build"
 	},
-	"dependencies": {
-		"react": "^18.3.1",
-		"react-dom": "^18.3.1"
-	},
 	"devDependencies": {
 		"@chromatic-com/storybook": "^1.6.0",
 		"@storybook/addon-essentials": "^8.1.11",
@@ -34,6 +30,8 @@
 		"eslint-plugin-react-hooks": "^4.6.2",
 		"eslint-plugin-react-refresh": "^0.4.7",
 		"eslint-plugin-storybook": "^0.8.0",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
 		"storybook": "^8.1.11",
 		"typescript": "^5.2.2",
 		"vite": "^5.3.1"
