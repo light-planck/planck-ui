@@ -41,3 +41,5 @@ jobs:
           tool_versions: |
             shellcheck 0.9.0
           run: shellcheck scripts/*.sh
+      - name: Build
+        run: pnpm build
