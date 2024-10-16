@@ -2,6 +2,7 @@
 	"scripts": {
 		"sb": "pnpm --filter core storybook dev -p 6006",
 		"build": "pnpm --filter core build",
+		"format": "pnpm --filter core format",
 		"knip": "knip"
 	},
 	"devDependencies": {
