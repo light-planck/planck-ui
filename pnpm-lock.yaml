@@ -16,10 +16,10 @@ importers:
         version: 20.14.12
       knip:
         specifier: ^5.24.0
-        version: 5.27.0(@types/node@20.14.12)(typescript@5.6.2)
+        version: 5.27.0(@types/node@20.14.12)(typescript@5.6.3)
       typescript:
         specifier: ^5.2.2
-        version: 5.6.2
+        version: 5.6.3
 
   packages/core:
     devDependencies:
@@ -40,10 +40,10 @@ importers:
         version: 8.2.6(react@18.3.1)(storybook@8.2.6(@babel/preset-env@7.24.8(@babel/core@7.24.9)))
       '@storybook/react':
         specifier: ^8.1.11
-        version: 8.2.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.2.6(@babel/preset-env@7.24.8(@babel/core@7.24.9)))(typescript@5.6.2)
+        version: 8.2.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.2.6(@babel/preset-env@7.24.8(@babel/core@7.24.9)))(typescript@5.6.3)
       '@storybook/react-vite':
         specifier: ^8.1.11
-        version: 8.2.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.19.0)(storybook@8.2.6(@babel/preset-env@7.24.8(@babel/core@7.24.9)))(typescript@5.6.2)(vite@5.3.5(@types/node@20.14.12))
+        version: 8.2.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.19.0)(storybook@8.2.6(@babel/preset-env@7.24.8(@babel/core@7.24.9)))(typescript@5.6.3)(vite@5.3.5(@types/node@20.14.12))
       '@storybook/test':
         specifier: ^8.1.11
         version: 8.2.6(storybook@8.2.6(@babel/preset-env@7.24.8(@babel/core@7.24.9)))
@@ -67,7 +67,7 @@ importers:
         version: 8.2.6(@babel/preset-env@7.24.8(@babel/core@7.24.9))
       typescript:
         specifier: ^5.2.2
-        version: 5.6.2
+        version: 5.6.3
       vite:
         specifier: ^5.3.1
         version: 5.3.5(@types/node@20.14.12)
@@ -2923,8 +2923,8 @@ packages:
     resolution: {integrity: sha512-TkRKr9sUTxEH8MdfuCSP7VizJyzRNMjj2J2do2Jr3Kym598JVdEksuzPQCnlFPW4ky9Q+iA+ma9BGm06XQBy8g==}
     engines: {node: '>= 0.6'}
 
-  typescript@5.6.2:
-    resolution: {integrity: sha512-NW8ByodCSNCwZeghjN3o+JX5OFH0Ojg6sadjEKY4huZ52TqbJTJnDo5+Tw98lSy63NZvi4n+ez5m2u5d4PkZyw==}
+  typescript@5.6.3:
+    resolution: {integrity: sha512-hjcS1mhfuyi4WW8IWtjP7brDrG2cuDZukyrYrSauoXGNgx0S7zceP07adYkJycEr56BOUTNPzbInooiN3fn1qw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -4118,15 +4118,15 @@ snapshots:
     dependencies:
       '@sinclair/typebox': 0.27.8
 
-  '@joshwooding/vite-plugin-react-docgen-typescript@0.3.1(typescript@5.6.2)(vite@5.3.5(@types/node@20.14.12))':
+  '@joshwooding/vite-plugin-react-docgen-typescript@0.3.1(typescript@5.6.3)(vite@5.3.5(@types/node@20.14.12))':
     dependencies:
       glob: 7.2.3
       glob-promise: 4.2.2(glob@7.2.3)
       magic-string: 0.27.0
-      react-docgen-typescript: 2.2.2(typescript@5.6.2)
+      react-docgen-typescript: 2.2.2(typescript@5.6.3)
       vite: 5.3.5(@types/node@20.14.12)
     optionalDependencies:
-      typescript: 5.6.2
+      typescript: 5.6.3
 
   '@jridgewell/gen-mapping@0.3.5':
     dependencies:
@@ -4365,7 +4365,7 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@storybook/builder-vite@8.2.6(storybook@8.2.6(@babel/preset-env@7.24.8(@babel/core@7.24.9)))(typescript@5.6.2)(vite@5.3.5(@types/node@20.14.12))':
+  '@storybook/builder-vite@8.2.6(storybook@8.2.6(@babel/preset-env@7.24.8(@babel/core@7.24.9)))(typescript@5.6.3)(vite@5.3.5(@types/node@20.14.12))':
     dependencies:
       '@storybook/csf-plugin': 8.2.6(storybook@8.2.6(@babel/preset-env@7.24.8(@babel/core@7.24.9)))
       '@types/find-cache-dir': 3.2.1
@@ -4379,7 +4379,7 @@ snapshots:
       ts-dedent: 2.2.0
       vite: 5.3.5(@types/node@20.14.12)
     optionalDependencies:
-      typescript: 5.6.2
+      typescript: 5.6.3
     transitivePeerDependencies:
       - supports-color
 
@@ -4462,12 +4462,12 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       storybook: 8.2.6(@babel/preset-env@7.24.8(@babel/core@7.24.9))
 
-  '@storybook/react-vite@8.2.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.19.0)(storybook@8.2.6(@babel/preset-env@7.24.8(@babel/core@7.24.9)))(typescript@5.6.2)(vite@5.3.5(@types/node@20.14.12))':
+  '@storybook/react-vite@8.2.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.19.0)(storybook@8.2.6(@babel/preset-env@7.24.8(@babel/core@7.24.9)))(typescript@5.6.3)(vite@5.3.5(@types/node@20.14.12))':
     dependencies:
-      '@joshwooding/vite-plugin-react-docgen-typescript': 0.3.1(typescript@5.6.2)(vite@5.3.5(@types/node@20.14.12))
+      '@joshwooding/vite-plugin-react-docgen-typescript': 0.3.1(typescript@5.6.3)(vite@5.3.5(@types/node@20.14.12))
       '@rollup/pluginutils': 5.1.0(rollup@4.19.0)
-      '@storybook/builder-vite': 8.2.6(storybook@8.2.6(@babel/preset-env@7.24.8(@babel/core@7.24.9)))(typescript@5.6.2)(vite@5.3.5(@types/node@20.14.12))
-      '@storybook/react': 8.2.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.2.6(@babel/preset-env@7.24.8(@babel/core@7.24.9)))(typescript@5.6.2)
+      '@storybook/builder-vite': 8.2.6(storybook@8.2.6(@babel/preset-env@7.24.8(@babel/core@7.24.9)))(typescript@5.6.3)(vite@5.3.5(@types/node@20.14.12))
+      '@storybook/react': 8.2.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.2.6(@babel/preset-env@7.24.8(@babel/core@7.24.9)))(typescript@5.6.3)
       find-up: 5.0.0
       magic-string: 0.30.10
       react: 18.3.1
@@ -4484,7 +4484,7 @@ snapshots:
       - typescript
       - vite-plugin-glimmerx
 
-  '@storybook/react@8.2.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.2.6(@babel/preset-env@7.24.8(@babel/core@7.24.9)))(typescript@5.6.2)':
+  '@storybook/react@8.2.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.2.6(@babel/preset-env@7.24.8(@babel/core@7.24.9)))(typescript@5.6.3)':
     dependencies:
       '@storybook/components': 8.2.6(storybook@8.2.6(@babel/preset-env@7.24.8(@babel/core@7.24.9)))
       '@storybook/global': 5.0.0
@@ -4511,7 +4511,7 @@ snapshots:
       type-fest: 2.19.0
       util-deprecate: 1.0.2
     optionalDependencies:
-      typescript: 5.6.2
+      typescript: 5.6.3
 
   '@storybook/test@8.2.6(storybook@8.2.6(@babel/preset-env@7.24.8(@babel/core@7.24.9)))':
     dependencies:
@@ -5500,7 +5500,7 @@ snapshots:
 
   kleur@3.0.3: {}
 
-  knip@5.27.0(@types/node@20.14.12)(typescript@5.6.2):
+  knip@5.27.0(@types/node@20.14.12)(typescript@5.6.3):
     dependencies:
       '@nodelib/fs.walk': 1.2.8
       '@snyk/github-codeowners': 1.1.0
@@ -5517,7 +5517,7 @@ snapshots:
       smol-toml: 1.3.0
       strip-json-comments: 5.0.1
       summary: 2.1.0
-      typescript: 5.6.2
+      typescript: 5.6.3
       zod: 3.23.8
       zod-validation-error: 3.3.0(zod@3.23.8)
 
@@ -5861,9 +5861,9 @@ snapshots:
       react: 18.3.1
       tween-functions: 1.2.0
 
-  react-docgen-typescript@2.2.2(typescript@5.6.2):
+  react-docgen-typescript@2.2.2(typescript@5.6.3):
     dependencies:
-      typescript: 5.6.2
+      typescript: 5.6.3
 
   react-docgen@7.0.3:
     dependencies:
@@ -6249,7 +6249,7 @@ snapshots:
       media-typer: 0.3.0
       mime-types: 2.1.35
 
-  typescript@5.6.2: {}
+  typescript@5.6.3: {}
 
   ufo@1.5.4: {}
 
