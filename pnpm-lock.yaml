@@ -13,10 +13,10 @@ importers:
         version: 1.9.4
       '@types/node':
         specifier: ^20.14.9
-        version: 20.16.15
+        version: 20.17.0
       knip:
         specifier: ^5.24.0
-        version: 5.33.3(@types/node@20.16.15)(typescript@5.6.3)
+        version: 5.33.3(@types/node@20.17.0)(typescript@5.6.3)
       typescript:
         specifier: ^5.2.2
         version: 5.6.3
@@ -909,8 +909,8 @@ packages:
   '@types/minimatch@5.1.2':
     resolution: {integrity: sha512-K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==}
 
-  '@types/node@20.16.15':
-    resolution: {integrity: sha512-DV58qQz9dBMqVVn+qnKwGa51QzCD4YM/tQM16qLKxdf5tqz5W4QwtrMzjSTbabN1cFTSuyxVYBy+QWHjWW8X/g==}
+  '@types/node@20.17.0':
+    resolution: {integrity: sha512-a7zRo0f0eLo9K5X9Wp5cAqTUNGzuFLDG2R7C4HY2BhcMAsxgSPuRvAC1ZB6QkuUQXf0YZAgfOX2ZyrBa2n4nHQ==}
 
   '@types/node@22.7.6':
     resolution: {integrity: sha512-/d7Rnj0/ExXDMcioS78/kf1lMzYk4BZV8MZGTBKzTGZ6/406ukkbYlIsZmMPhcR5KlkunDHQLrtAVmSq7r+mSw==}
@@ -2979,7 +2979,7 @@ snapshots:
 
   '@types/minimatch@5.1.2': {}
 
-  '@types/node@20.16.15':
+  '@types/node@20.17.0':
     dependencies:
       undici-types: 6.19.8
 
@@ -3651,11 +3651,11 @@ snapshots:
     optionalDependencies:
       graceful-fs: 4.2.11
 
-  knip@5.33.3(@types/node@20.16.15)(typescript@5.6.3):
+  knip@5.33.3(@types/node@20.17.0)(typescript@5.6.3):
     dependencies:
       '@nodelib/fs.walk': 1.2.8
       '@snyk/github-codeowners': 1.1.0
-      '@types/node': 20.16.15
+      '@types/node': 20.17.0
       easy-table: 1.2.0
       enhanced-resolve: 5.17.1
       fast-glob: 3.3.2
