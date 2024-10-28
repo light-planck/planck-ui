@@ -25,7 +25,7 @@ importers:
     devDependencies:
       '@chromatic-com/storybook':
         specifier: ^3.0.0
-        version: 3.1.0(react@18.3.1)(storybook@8.3.6)
+        version: 3.2.0(react@18.3.1)(storybook@8.3.6)
       '@storybook/addon-essentials':
         specifier: ^8.1.11
         version: 8.3.6(storybook@8.3.6)(webpack-sources@3.2.3)
@@ -228,11 +228,11 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@chromatic-com/storybook@3.1.0':
-    resolution: {integrity: sha512-AM8jDwoBNNwJKgmoWkHIOhu4ObsxvDtOzZC9tPCVEW6P+pFwg5xjSZAQglIE2c8/SsEPSduNdxBt31ES3iDwoA==}
+  '@chromatic-com/storybook@3.2.0':
+    resolution: {integrity: sha512-gnD29KvZ1yeAYNeo8PdpZLE94W6YynyIuqZ1+mFIhDKcSGf84jllqt2sXtwzXodrT38NWlM5kijTS9Hpo0Pf9w==}
     engines: {node: '>=16.0.0', yarn: '>=1.22.18'}
     peerDependencies:
-      storybook: ^8.3.0
+      storybook: '*'
 
   '@esbuild/aix-ppc64@0.21.5':
     resolution: {integrity: sha512-1SDgH6ZSPTlggy1yI6+Dbkiz8xzpHJEVAlF/AM1tHPLsf5STom9rwtjE4hKAF20FfXXNTFqEYXyJNWh1GiZedQ==}
@@ -1121,8 +1121,8 @@ packages:
     resolution: {integrity: sha512-OAlb+T7V4Op9OwdkjmguYRqncdlx5JiofwOAUkmTF+jNdHwzTaTs4sRAGpzLF3oOz5xAyDGrPgeIDFQmDOTiJw==}
     engines: {node: '>= 16'}
 
-  chromatic@11.15.0:
-    resolution: {integrity: sha512-5WBm+akQnxsdJv7A//XBafYxk88RJYmRjOh61lVitbPCIN2J9jcsQR+hYApnInmQsWRZvO8GKkMy7SdTlnm1dg==}
+  chromatic@11.16.1:
+    resolution: {integrity: sha512-pdpURz0tLp2EJSwfDUHJAf8xufkL/FGZmNuyebv03WkTOZPUAxBMZ19/Y6sFST6MQvUGy/2VI5eNWnfWLDLwhQ==}
     hasBin: true
     peerDependencies:
       '@chromatic-com/cypress': ^0.*.* || ^1.0.0
@@ -2351,12 +2351,12 @@ snapshots:
   '@biomejs/cli-win32-x64@1.9.4':
     optional: true
 
-  '@chromatic-com/storybook@3.1.0(react@18.3.1)(storybook@8.3.6)':
+  '@chromatic-com/storybook@3.2.0(react@18.3.1)(storybook@8.3.6)':
     dependencies:
       '@storybook/channels': 8.3.6(storybook@8.3.6)
       '@storybook/telemetry': 8.3.6(storybook@8.3.6)
       '@storybook/types': 8.3.6(storybook@8.3.6)
-      chromatic: 11.15.0
+      chromatic: 11.16.1
       filesize: 10.1.6
       jsonfile: 6.1.0
       react-confetti: 6.1.0(react@18.3.1)
@@ -3231,7 +3231,7 @@ snapshots:
 
   check-error@2.1.1: {}
 
-  chromatic@11.15.0: {}
+  chromatic@11.16.1: {}
 
   clean-stack@2.2.0: {}
 
