@@ -16,10 +16,10 @@ importers:
         version: 20.17.1
       knip:
         specifier: ^5.24.0
-        version: 5.34.0(@types/node@20.17.1)(typescript@5.6.3)
+        version: 5.34.0(@types/node@20.17.1)(typescript@5.7.2)
       typescript:
         specifier: ^5.2.2
-        version: 5.6.3
+        version: 5.7.2
 
   packages/core:
     devDependencies:
@@ -40,10 +40,10 @@ importers:
         version: 8.3.6(react@18.3.1)(storybook@8.3.6)
       '@storybook/react':
         specifier: ^8.1.11
-        version: 8.3.6(@storybook/test@8.3.6(storybook@8.3.6))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.3.6)(typescript@5.6.3)
+        version: 8.3.6(@storybook/test@8.3.6(storybook@8.3.6))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.3.6)(typescript@5.7.2)
       '@storybook/react-vite':
         specifier: ^8.1.11
-        version: 8.3.6(@storybook/test@8.3.6(storybook@8.3.6))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.24.0)(storybook@8.3.6)(typescript@5.6.3)(vite@5.4.10(@types/node@22.8.0))(webpack-sources@3.2.3)
+        version: 8.3.6(@storybook/test@8.3.6(storybook@8.3.6))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.24.0)(storybook@8.3.6)(typescript@5.7.2)(vite@5.4.10(@types/node@22.8.0))(webpack-sources@3.2.3)
       '@storybook/test':
         specifier: ^8.1.11
         version: 8.3.6(storybook@8.3.6)
@@ -67,7 +67,7 @@ importers:
         version: 8.3.6
       typescript:
         specifier: ^5.2.2
-        version: 5.6.3
+        version: 5.7.2
       vite:
         specifier: ^5.3.6
         version: 5.4.10(@types/node@22.8.0)
@@ -2043,8 +2043,8 @@ packages:
     resolution: {integrity: sha512-TkRKr9sUTxEH8MdfuCSP7VizJyzRNMjj2J2do2Jr3Kym598JVdEksuzPQCnlFPW4ky9Q+iA+ma9BGm06XQBy8g==}
     engines: {node: '>= 0.6'}
 
-  typescript@5.6.3:
-    resolution: {integrity: sha512-hjcS1mhfuyi4WW8IWtjP7brDrG2cuDZukyrYrSauoXGNgx0S7zceP07adYkJycEr56BOUTNPzbInooiN3fn1qw==}
+  typescript@5.7.2:
+    resolution: {integrity: sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -2508,15 +2508,15 @@ snapshots:
   '@esbuild/win32-x64@0.23.1':
     optional: true
 
-  '@joshwooding/vite-plugin-react-docgen-typescript@0.3.0(typescript@5.6.3)(vite@5.4.10(@types/node@22.8.0))':
+  '@joshwooding/vite-plugin-react-docgen-typescript@0.3.0(typescript@5.7.2)(vite@5.4.10(@types/node@22.8.0))':
     dependencies:
       glob: 7.2.3
       glob-promise: 4.2.2(glob@7.2.3)
       magic-string: 0.27.0
-      react-docgen-typescript: 2.2.2(typescript@5.6.3)
+      react-docgen-typescript: 2.2.2(typescript@5.7.2)
       vite: 5.4.10(@types/node@22.8.0)
     optionalDependencies:
-      typescript: 5.6.3
+      typescript: 5.7.2
 
   '@jridgewell/gen-mapping@0.3.5':
     dependencies:
@@ -2745,7 +2745,7 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@storybook/builder-vite@8.3.6(storybook@8.3.6)(typescript@5.6.3)(vite@5.4.10(@types/node@22.8.0))(webpack-sources@3.2.3)':
+  '@storybook/builder-vite@8.3.6(storybook@8.3.6)(typescript@5.7.2)(vite@5.4.10(@types/node@22.8.0))(webpack-sources@3.2.3)':
     dependencies:
       '@storybook/csf-plugin': 8.3.6(storybook@8.3.6)(webpack-sources@3.2.3)
       '@types/find-cache-dir': 3.2.1
@@ -2759,7 +2759,7 @@ snapshots:
       ts-dedent: 2.2.0
       vite: 5.4.10(@types/node@22.8.0)
     optionalDependencies:
-      typescript: 5.6.3
+      typescript: 5.7.2
     transitivePeerDependencies:
       - supports-color
       - webpack-sources
@@ -2831,12 +2831,12 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       storybook: 8.3.6
 
-  '@storybook/react-vite@8.3.6(@storybook/test@8.3.6(storybook@8.3.6))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.24.0)(storybook@8.3.6)(typescript@5.6.3)(vite@5.4.10(@types/node@22.8.0))(webpack-sources@3.2.3)':
+  '@storybook/react-vite@8.3.6(@storybook/test@8.3.6(storybook@8.3.6))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.24.0)(storybook@8.3.6)(typescript@5.7.2)(vite@5.4.10(@types/node@22.8.0))(webpack-sources@3.2.3)':
     dependencies:
-      '@joshwooding/vite-plugin-react-docgen-typescript': 0.3.0(typescript@5.6.3)(vite@5.4.10(@types/node@22.8.0))
+      '@joshwooding/vite-plugin-react-docgen-typescript': 0.3.0(typescript@5.7.2)(vite@5.4.10(@types/node@22.8.0))
       '@rollup/pluginutils': 5.1.2(rollup@4.24.0)
-      '@storybook/builder-vite': 8.3.6(storybook@8.3.6)(typescript@5.6.3)(vite@5.4.10(@types/node@22.8.0))(webpack-sources@3.2.3)
-      '@storybook/react': 8.3.6(@storybook/test@8.3.6(storybook@8.3.6))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.3.6)(typescript@5.6.3)
+      '@storybook/builder-vite': 8.3.6(storybook@8.3.6)(typescript@5.7.2)(vite@5.4.10(@types/node@22.8.0))(webpack-sources@3.2.3)
+      '@storybook/react': 8.3.6(@storybook/test@8.3.6(storybook@8.3.6))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.3.6)(typescript@5.7.2)
       find-up: 5.0.0
       magic-string: 0.30.12
       react: 18.3.1
@@ -2855,7 +2855,7 @@ snapshots:
       - vite-plugin-glimmerx
       - webpack-sources
 
-  '@storybook/react@8.3.6(@storybook/test@8.3.6(storybook@8.3.6))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.3.6)(typescript@5.6.3)':
+  '@storybook/react@8.3.6(@storybook/test@8.3.6(storybook@8.3.6))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.3.6)(typescript@5.7.2)':
     dependencies:
       '@storybook/components': 8.3.6(storybook@8.3.6)
       '@storybook/global': 5.0.0
@@ -2882,7 +2882,7 @@ snapshots:
       util-deprecate: 1.0.2
     optionalDependencies:
       '@storybook/test': 8.3.6(storybook@8.3.6)
-      typescript: 5.6.3
+      typescript: 5.7.2
 
   '@storybook/telemetry@8.3.6(storybook@8.3.6)':
     dependencies:
@@ -3681,7 +3681,7 @@ snapshots:
     optionalDependencies:
       graceful-fs: 4.2.11
 
-  knip@5.34.0(@types/node@20.17.1)(typescript@5.6.3):
+  knip@5.34.0(@types/node@20.17.1)(typescript@5.7.2):
     dependencies:
       '@nodelib/fs.walk': 1.2.8
       '@snyk/github-codeowners': 1.1.0
@@ -3698,7 +3698,7 @@ snapshots:
       smol-toml: 1.3.0
       strip-json-comments: 5.0.1
       summary: 2.1.0
-      typescript: 5.6.3
+      typescript: 5.7.2
       zod: 3.23.8
       zod-validation-error: 3.4.0(zod@3.23.8)
 
@@ -3909,9 +3909,9 @@ snapshots:
       react: 18.3.1
       tween-functions: 1.2.0
 
-  react-docgen-typescript@2.2.2(typescript@5.6.3):
+  react-docgen-typescript@2.2.2(typescript@5.7.2):
     dependencies:
-      typescript: 5.6.3
+      typescript: 5.7.2
 
   react-docgen@7.0.3:
     dependencies:
@@ -4162,7 +4162,7 @@ snapshots:
       media-typer: 0.3.0
       mime-types: 2.1.35
 
-  typescript@5.6.3: {}
+  typescript@5.7.2: {}
 
   undici-types@6.19.8: {}
 
